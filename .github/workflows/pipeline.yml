@@ -16,6 +16,8 @@ jobs:
         cache: 'npm'
     - name: frontend install
       run: npm --prefix frontend install
+    - name: frontend test
+      run: npm --prefix frontend run test
     - name: frontend build
       run: npm --prefix frontend run build
     - name: upload frontend build
