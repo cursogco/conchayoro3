@@ -8,7 +8,7 @@ describe('Page', () => {
  
     const heading = screen.getByRole("heading", {level: 1});
     
-    expect(heading).toHaveTextContent('Welcome to the ConchaYOro App - fail')
+    expect(heading).toHaveTextContent('Welcome to the ConchaYOro App - ABC')
 
   })
 })
